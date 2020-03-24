@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Calculator | by EnryBarto</title>
+
+		<link rel="icon" type="image/jpg" href="favicon.jpg">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script type="text/javascript" src="js.js"></script>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h1 class="title">Calcolatrice</h1>
+		<h5 class="title">Enrico Bartocetti, 2^BIN</h5>
+
+		<input id="reload" type="button" value="RICARICA" title="Clicca per ricaricare la pagina" onclick="return RefreshWindow();"/>
+
+		<br><br>
+
+		<div id="instructions">
+			<h4>Istruzioni per l'uso</h4>
+			<p class="txt">• Utilizzare il punto in sostituzione alla virgola (10,5 → 10.5);<p>
+			<p class="txt">• Quando richiesto, inserire il primo numero;<p>
+			<p class="txt">• Quando richiesto, inserire l'operatore:
+				<br>&emsp;+ → Addizione
+				<br>&emsp;- → Sottrazione
+				<br>&emsp;* → Moltiplicazione
+				<br>&emsp;/ → Divisione
+				<br>&emsp;^ → Potenza<p>
+			<p class="txt"><b><i>N.B.:</b> In caso di potenza il primo numero rappresenta la base e il secondo numero rappresenta l'esponente.</i></p>
+			<p class="txt">• Quando richiesto, inserire il secondo numero;<p>
+			<p class="txt">• Per riavviare la calcolatrice ricaricare la pagina.<p>
+			<input id="reload" type="button" value="RICARICA" title="Clicca per ricaricare la pagina" onclick="return RefreshWindow();"/>
+			<h4>Errori:</h4>
+			<p class="txt">• <b><i>"Il risultato è: NaN"</i></b>:<br>
+				Nel campo dei numeri è stato inserito testo o simboli diversi da un numero;</p>
+			<p class="txt">• <b><i>"Operatore non riconosciuto"</i></b>:<br>
+				L'operatore inserito non è riconosciuto, consultare l'elenco di operatori disponibili.</p>
+	</body>
+
+</html>
