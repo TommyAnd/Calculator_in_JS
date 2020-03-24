@@ -28,3 +28,8 @@ html{
 	padding-left: 15px;
 	text-align: left;
 }
+
+.link {
+	text-decoration: none;
+	color: rgb(252,177,3);
+}
