@@ -17,7 +17,7 @@
 	<body>
 		<h1 class="title">Calcolatrice</h1>
 
-		<input id="reload" type="button" value="RICARICA" title="Clicca per ricaricare la pagina" onclick="return RefreshWindow();"/>
+		<button title="Clicca per aprire la calcolatrice" class="calculate" onclick="Calculator();"/>APRI CALCOLATRICE</button>
 
 		<br><br>
 
@@ -33,8 +33,8 @@
 				<br><nobr>&emsp;^ → Potenza</nobr><p>
 			<p class="txt"><b><i>N.B.:</b> In caso di potenza il primo numero rappresenta la base e il secondo numero rappresenta l'esponente.</i></p>
 			<p class="txt">• Quando richiesto, inserire il secondo numero;<p>
-			<p class="txt">• Per riavviare la calcolatrice ricaricare la pagina.<p>
-			<input id="reload" type="button" value="RICARICA" title="Clicca per ricaricare la pagina" onclick="return RefreshWindow();"/>
+			<p class="txt">• Per aprire la calcolatrice cliccare sul pulsante qui sotto o a inizio pagina.<p>
+			<input class="calculate" type="button" value="APRI CALCOLATRICE" title="Clicca per aprire la calcolatrice" onclick="Calculator();"/>
 			<h4>Errori:</h4>
 			<p class="txt">• <b><i>"Il risultato è: NaN"</i></b>:<br>
 				Nel campo dei numeri è stato inserito testo o simboli diversi da un numero;</p>

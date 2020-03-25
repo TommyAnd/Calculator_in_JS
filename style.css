@@ -9,19 +9,33 @@ html{
 	color: rgb(252,177,3);
 }
 
-#reload{
-	border-radius: 5px;
+.calculate{
+	cursor: pointer;
+	background: rgb(252,177,3);
+	border-radius: 10px;
+	padding: 10px;
+	border-style: none;
+	color: red;
 }
+
+.calculate:hover{
+	background: none;
+	font-weight: bold;
+	color: black;
+}
+
 
 #instructions{
 	border-radius: 25px;
 	word-wrap: break-word;
 	width: auto;
-	max-width: 90%;
+	max-width: 80%;
 	margin: auto;
+	padding-right: 10px;
 	padding-top: 1px;
 	padding-bottom: 2.5px;
 	background-color: gainsboro;
+	word-wrap: break-word;
 }
 
 .txt {
