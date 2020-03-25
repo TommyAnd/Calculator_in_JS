@@ -3,7 +3,12 @@ function RefreshWindow()
          window.location.reload(true);
 }
 
-window.alert("Se questo è il primo utilizzo, continuare a cliccare 'OK' fino all'apparsa delle istruzioni")
+
+if (  sessionStorage.getItem("Already opened?") != "Yes" ) {
+	window.alert("ISTRUZIONI PER L'USO DELLA CALCOLATRICE:\n\n• Utilizzare il punto in sostituzione alla virgola (10,5 → 10.5);\n\n• Quando richiesto, inserire il primo numero;\n\n• Quando richiesto, inserire l'operatore:\n\n+ → Addizione\n\n- → Sottrazione\n\n* → Moltiplicazione\n\n/ → Divisione\n\n^ → Potenza\n\n• Quando richiesto, inserire il secondo numero;\n\nN.B.: In caso di potenza il primo numero rappresenta la base e il secondo numero rappresenta l'esponente.");
+}
+
+sessionStorage.setItem("Already opened?", "Yes");
 
 var x = prompt("Inserire il primo numero","Primo numero")*1;
 var op = prompt("Inserire l'operatore","Operatore");
