@@ -47,4 +47,6 @@ function Calculator(){
 	else {
 		window.alert("Operatore non riconosciuto");
 	}
+	
+	window.location.reload(true);
 }
