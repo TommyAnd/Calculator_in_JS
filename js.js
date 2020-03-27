@@ -37,8 +37,11 @@ function Calculator(){
 			var result = Math.sqrt(x);
 	    	window.alert("Il risultato è: "+result);
 		}
-		else{
+		else if (x < 0) {
 			window.alert("La radice quadrata di un numero negativo non esiste");
+		}
+		else {
+			window.alert("Il risultato è: NaN");
 		}
 	}
 	else if ( op == "/") {
