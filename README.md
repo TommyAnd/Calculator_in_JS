@@ -15,4 +15,4 @@ It can do additions, subtractions, multiplications, divisions, exponentiations a
 
 "^" → Exponentiation
 
-"radQ" → Square root
+"sqrt" → Square root
